@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    text-align: center;
+    /* height: 100vh; */
+    background: #c7d2b3 0% 0% no-repeat padding-box;
+}
+.the{
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    font: normal normal lighter 32px/39px Montserrat;
+}
+.si{
+    display: inline-flex;
+}
+.sir{
+font: normal normal bold 71px/87px Montserrat;
+}
+li{
+    top: 189px;
+    width: 15%;
+    font: normal normal medium 18px/22px Montserrat;
+    color: #000000;
+    display: inline-flex;
+    text-decoration: none;
+}
+.bar{
+    height: 50px;
+    background-color: rgb(131, 238, 203);
+    padding: 12px;
+    /* text-decoration: none; */
+}
+.boxy{
+    margin: 20px;
+    display: inline-flex;
+    padding: 25px;
+    column-gap: 15px;
+}
+.box1{
+    margin: 30px;
+    display: inline-flex;
+    gap: 20px;
+    width: 70%;
+    border: #757070 1px solid;
+    padding: 5px;
+}
+.box2{
+    display: grid; 
+    width: 200px;
+    
+}
+.lin{
+    border: 1px solid rgb(187, 181, 181);
+    margin: 30px;
+}
+.tit{
+    text-align: center;
+}
+.blog{
+    margin: 30px;
+    display: inline-block;
+    gap: 20px;
+    width: 70%;
+    padding: 5px;
+}
+.box3{
+    margin: 15px;
+    display: inline-flex;
+    gap: 20px;
+    /* width: 70%; */
+    border: #757070 1px solid;
+    padding: 5px;
+
+}
+.box4{
+    display: inline-flex;
+    padding: 0%;
+}
+.side{
+    display: inline-block;
+    column-gap: 50px;
+    margin-right: 0%;
+}
+/* .trend{
+    top: 300px;
+left: 242px;
+width: 958px;
+height: 606px;
+background: transparent url('') 0% 0% no-repeat padding-box;
+box-shadow: 0px 5px 10px #0000001A;
+border-radius: 7px;
+opacity: 1;
+} */
+/* .card{
+    height: 200px;
+    width: 900px;
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 20px;
+    margin-left: 30px;
+}
+.im{
+    width: 300px;
+    background-color: aquamarine;
+}
+.data{
+    width: 560px;
+    justify-items: left; 
+    padding: 9px;
+    text-align: center;
+}
+.cards{
+    width: 900px;
+    height: 500px;
+    display: flexbox;
+    
+}
+.car{
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+
+}
+
+.topost{
+    height: 200px;
+    width: 300px;
+}
+.top1{
+    width: 200px;
+    color: black;
+     display: grid; 
+    grid-template-columns: auto auto;
+    margin-left: 10px;
+}
+.image{
+    width: 190px;
+   justify-items: left;
+}
+.de{
+    justify-items: right;
+}
+.latest{
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.tour{
+    width: auto;
+    display: grid;
+    margin: 40px;
+    grid-template-columns: auto auto;
+    gap: 20px;
+} */
