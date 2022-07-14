@@ -4,7 +4,7 @@ import "./Styles.css";
 const Fitness=()=>{
   const [data , useData] = useState([])
     useEffect(()=>{
-        const url = "https://reactblogbackend23.herokuapp.com//api/fitness";
+        const url = "https://reactblogbackend23.herokuapp.com/api/fitness";
         fetch(url).then(res => res.json())
         .then(useData)
         .catch(err=>console.log(err))
