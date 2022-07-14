@@ -4,7 +4,7 @@ import "./Styles.css"
 const  Food=()=> {
   const [data , useData] = useState([])
   useEffect(()=>{
-      const url = "http://localhost:40021/api/food";
+      const url = "https://reactblogbackend23.herokuapp.com/api/food";
       fetch(url).then(res => res.json())
       .then(useData)
         .catch(err=>console.log(err))
