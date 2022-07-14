@@ -4,7 +4,7 @@ import "./Styles.css"
 const Bollywood = () => {
     const [data , useData] = useState([])
     useEffect(()=>{
-        const url = "http://localhost:40021/api/bollywood/";
+        const url = "https://reactblogbackend23.herokuapp.com/api/bollywood/";
         fetch(url).then(res => res.json())
         .then(useData)
         .catch(err=>console.log(err))
